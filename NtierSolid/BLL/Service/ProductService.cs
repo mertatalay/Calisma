@@ -20,7 +20,7 @@ namespace BLL.Service
                 db.SaveChanges();
                 return;
             }
-            catch (System.Exception ex)
+            catch (Exception)
             {
                 return;
                 
@@ -29,17 +29,34 @@ namespace BLL.Service
 
         public void DeleteProduct(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Product deleted = db.Products.Find(id);
+                if (deleted != null)
+                {
+                    db.Products.Remove(deleted);
+                    db.SaveChanges();
+                    
+                }
+                else
+                {
+                    return;
+                }
+            }
+            catch (System.Exception ex)
+            {
+
+                return;
+            }
         }
 
-        public List<Product> ProductList()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public void UpdateProduct(Product product)
         {
-            throw new NotImplementedException();
+            db.Entry(product).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+            return;
         }
     }
 }

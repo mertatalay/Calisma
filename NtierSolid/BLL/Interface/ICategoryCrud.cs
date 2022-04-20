@@ -12,7 +12,7 @@ namespace BLL.Interface
         void CreateCategory(Category category);
         void UpdateCategory(Category category);
         void DeleteCategory(int id);
-        List<Category> CategoryList();
+        
 
 
 

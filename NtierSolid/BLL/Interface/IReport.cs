@@ -7,12 +7,9 @@ using System.Threading.Tasks;
 
 namespace BLL.Interface
 {
-    public interface IProductCrud
+    public interface IReport
     {
-        void CreateProduct(Product product);
-        void UpdateProduct(Product product);
-        void DeleteProduct(int id);
-        
-
+        List<Category> CategoryList();
+        List<Product> ProductList();
     }
 }

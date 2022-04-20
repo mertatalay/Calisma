@@ -53,8 +53,11 @@
   <ItemGroup>
     <Compile Include="Interface\ICategoryCrud.cs" />
     <Compile Include="Interface\IProductCrud.cs" />
+    <Compile Include="Interface\IReport.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Admin.cs" />
     <Compile Include="Service\CategoryService.cs" />
+    <Compile Include="Service\ICrud.cs" />
     <Compile Include="Service\ProductService.cs" />
   </ItemGroup>
   <ItemGroup>

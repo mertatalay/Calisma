@@ -1,4 +1,5 @@
 ﻿using BLL.Interface;
+using DataAccess.Context;
 using DataAccess.Entity;
 using System;
 using System.Collections.Generic;
@@ -10,26 +11,54 @@ namespace BLL.Service
 {
     public class CategoryService:ICategoryCrud
     {
-        public List<Category> CategoryList()
-        {
-            throw new NotImplementedException();
-        }
 
-      
+        NTierSolidContext db = new NTierSolidContext();
+
 
         public void CreateCategory(Category category)
         {
-            throw new NotImplementedException();
+            try
+            {
+                db.Categories.Add(category);
+                db.SaveChanges();
+                return;
+            }
+            catch (Exception)
+            {
+                return;
+
+            }
         }
 
         public void DeleteCategory(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Category deleted = db.Categories.Find(id);
+                if (deleted != null)
+                {
+                    db.Categories.Remove(deleted);
+                    db.SaveChanges();
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+
+            }
+            catch (System.Exception ex)
+            {
+
+                return;
+            }
         }
 
         public void UpdateCategory(Category category)
         {
-            throw new NotImplementedException();
+            db.Entry(category).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
+            return;
         }
     }
 }
