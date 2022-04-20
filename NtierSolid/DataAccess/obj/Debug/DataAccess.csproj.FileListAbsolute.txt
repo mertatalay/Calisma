@@ -1,0 +1,12 @@
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\mert\Desktop\Githubcalisma\NtierSolid\DataAccess\obj\Debug\DataAccess.pdb
