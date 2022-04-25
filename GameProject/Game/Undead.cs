@@ -18,5 +18,10 @@ namespace Game
         {
             Console.WriteLine(defense + "şiddetinde defense yaptı");
         }
+
+        public void Magic(int magic)
+        {
+            Console.WriteLine(magic + "şiddetinde sihir yaptı");
+        }
     }
 }

@@ -18,5 +18,15 @@ namespace Game
         {
             Console.WriteLine(defense + "şiddetinde defense yaptı");
         }
+
+        public void hummer(int hummer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ridinghorse(int ridinghorse)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

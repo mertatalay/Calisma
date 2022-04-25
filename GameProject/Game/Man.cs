@@ -9,6 +9,11 @@ namespace Game
 {
     public class Man : Player, ISword, IArchery, IRidingHorse
     {
+        public void archery(int archery)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void Attack(int attack)
         {
             Console.WriteLine(attack + " şiddetinde saldırı yaptı");
@@ -19,6 +24,16 @@ namespace Game
         {
            
             Console.WriteLine( defense + "şiddetinde defense yaptı");
+        }
+
+        public void ridinghorse(int ridinghorse)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void sword(int sword)
+        {
+            throw new NotImplementedException();
         }
     }
 }

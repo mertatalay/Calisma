@@ -8,5 +8,7 @@ namespace Game.Interface
 {
     public interface IMagic
     {
+
+        void Magic(int magic);
     }
 }

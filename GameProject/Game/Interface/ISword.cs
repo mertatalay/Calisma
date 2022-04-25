@@ -8,5 +8,6 @@ namespace Game.Interface
 {
     public interface ISword
     {
+        void sword(int sword);
     }
 }

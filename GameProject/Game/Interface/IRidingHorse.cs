@@ -8,5 +8,7 @@ namespace Game.Interface
 {
     public interface IRidingHorse
     {
+        void ridinghorse(int ridinghorse);
+        
     }
 }

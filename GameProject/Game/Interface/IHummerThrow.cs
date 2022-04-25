@@ -8,5 +8,6 @@ namespace Game.Interface
 {
     public interface IHummerThrow
     {
+        void hummer(int hummer);
     }
 }

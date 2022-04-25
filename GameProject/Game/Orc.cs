@@ -9,6 +9,11 @@ namespace Game
 {
     public class Orc : Player, IArchery
     {
+        public void archery(int archery)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void Attack(int attack)
         {
             Console.WriteLine(attack + " şiddetinde saldırı yaptı");

@@ -14,6 +14,9 @@ namespace Game
         public int Warrior { get; set; }
         public string Hunter { get; set; }
         public int Mage { get; set; }
+
+        
+
         public string Priest { get; set; }
 
         public abstract void Attack(int attack);

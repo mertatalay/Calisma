@@ -8,13 +8,18 @@ namespace Game
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
+            
+            
 
-           Player bloodelf = new BloodElf();
+
+            Player bloodelf = new BloodElf();
             Player man = new Man();
             
             bloodelf.Attack(4);
+           
             man.Defense(2);
 
 
