@@ -47,7 +47,7 @@ namespace BLL.Service
                 }
 
             }
-            catch (System.Exception ex)
+            catch (Exception)
             {
 
                 return;

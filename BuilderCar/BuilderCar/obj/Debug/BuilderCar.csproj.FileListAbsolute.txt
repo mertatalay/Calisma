@@ -1,0 +1,8 @@
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\bin\Debug\BuilderCar.exe.config
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\bin\Debug\BuilderCar.exe
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\bin\Debug\BuilderCar.pdb
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\obj\Debug\BuilderCar.csproj.AssemblyReference.cache
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\obj\Debug\BuilderCar.csproj.SuggestedBindingRedirects.cache
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\obj\Debug\BuilderCar.csproj.CoreCompileInputs.cache
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\obj\Debug\BuilderCar.exe
+C:\Users\mert\Desktop\Bilge Adam\C#\Desing Patterns\BuilderCar\BuilderCar\obj\Debug\BuilderCar.pdb

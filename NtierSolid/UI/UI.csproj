@@ -69,6 +69,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{9e058d40-6368-46c1-b182-c657aab83ce5}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{e002c182-41a4-472a-a26c-4bac7ec14c3d}</Project>
       <Name>DataAccess</Name>
