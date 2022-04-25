@@ -10,6 +10,16 @@ namespace Game
     {
         static void Main(string[] args)
         {
+
+           Player bloodelf = new BloodElf();
+            Player man = new Man();
+            
+            bloodelf.Attack(4);
+            man.Defense(2);
+
+
+            Console.WriteLine(bloodelf.ToString()+man.ToString());
+            Console.ReadLine();
         }
     }
 }

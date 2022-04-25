@@ -8,6 +8,6 @@ namespace Game.Interface
 {
     public interface IArchery
     {
-        
+       
     }
 }

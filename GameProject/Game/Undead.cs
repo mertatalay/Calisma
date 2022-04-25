@@ -9,14 +9,14 @@ namespace Game
 {
     public class Undead : Player, IMagic
     {
-        public override void Attack()
+        public override void Attack(int attack)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(attack + " şiddetinde saldırı yaptı");
         }
 
-        public override void Defense()
+        public override void Defense(int defense)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(defense + "şiddetinde defense yaptı");
         }
     }
 }
